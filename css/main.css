@@ -25,14 +25,23 @@ body {
 
 article {
   max-width: 43em;
+  margin-bottom: 1.3rem;
 }
 
 article h1 {
   font-weight: normal;
+  padding: 0 1rem;
+  margin-bottom: 0;
 }
 
 article header {
   border-bottom: 1px solid #999;
+  margin-bottom: 1.3rem;
+}
+
+article p {
+  margin: 0 0 1.3rem;
+  padding: 0 1rem;
 }
 
 article header p {
@@ -41,6 +50,7 @@ article header p {
 
 article > p:last-child {
   border-bottom: 1px solid #999;
+  margin-bottom: 1.3rem;
 }
 
 blockquote {
@@ -52,16 +62,6 @@ blockquote {
 
 .quote {
   color: #999;
-}
-
-html {
-
-}
-
-article h1,
-article p {
-  margin: 0 0 1.3rem;
-  padding: 0 1rem;
 }
 
 article ol {
